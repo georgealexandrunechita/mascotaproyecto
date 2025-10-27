@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Registro de Mascota</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form }} <!-- Renderiza todos los campos con widgets y mensajes de error básicos -->
+            <button type="submit">Enviar</button> 
+        </form>
+    </body>
+</html>
