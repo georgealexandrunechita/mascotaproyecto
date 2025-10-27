@@ -35,10 +35,3 @@ El formulario permite registrar las siguientes propiedades de la mascota:
 - Validaciones condicionales (fecha de última vacuna) se gestionan en el **modelo (`clean()`)**, asegurando consistencia incluso fuera del formulario.  
 - Los campos de fecha usan **widgets de calendario** para facilitar la introducción de datos.
 
-## Instalación
-
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/TU_USUARIO/mascotaproyecto.git
-cd mascotaproyecto
